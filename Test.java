@@ -107,7 +107,7 @@ public class Test {
                                     minIndex = j;
                                 }
                               }
-                              int temp = 
+                              
                             }
                         }
                     }
