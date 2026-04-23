@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "JaggedArray",
+            "request": "launch",
+            "mainClass": "JaggedArray",
+            "projectName": "java_160e80cb"
+        },
+        {
+            "type": "java",
             "name": "Array",
             "request": "launch",
             "mainClass": "Array",
