@@ -82,8 +82,8 @@ fixed in the array here is the below example of some coding problems  */
         }
     } */
 
-
-        class item{
+// shopping cart 
+    /*    class item{
             String name;
             int rate;
             int discount;
@@ -135,6 +135,6 @@ fixed in the array here is the below example of some coding problems  */
             System.out.println("total discount" + totalSavings);
             System.out.println("final amount to pay: " + grandTotal);
           }
-     }
+     }*/
 
 
