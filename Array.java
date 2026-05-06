@@ -157,7 +157,7 @@
             System.out.println("sabse bada no: " + max);
         }
     } */
-   public class Array {
+/*   public class Array {
    
     public static void main(String[] args) {
         int arr[] = new int[5];
@@ -166,7 +166,9 @@
             System.out.println("Index" + i + " value" + arr[i]);
         }
     }
-   }
+   } */
+    
+
 
 
       
