@@ -2,29 +2,33 @@
 fixed in the array here is the below example of some coding problems  */
 
 
-/* public class JaggedArray {
+ public class JaggedArray {
 
     public static void main(String[] args) {
-        int nums[][] = new int[3][]; // jagged array
+        int row = 5;
+        String stars[][] = new String[row][]; // jagged array
 
-        nums[0] = new int[3];
-        nums[1] = new int[4];
-        nums[2] = new int[5];
+     //   nums[0] = new int[1];
+      //  nums[1] = new int[2];
+      //  nums[2] = new int[3];
 
-        for(int i = 0 ; i < nums.length; i++){
-            for(int j=0; j<nums[i].length; j++){
-                nums[i][j] = (int)(Math.random()*10);
+        for(int i = 0 ; i< row; i++){
+            stars[i] = new String[row - i];
+        }
+        for(int i = 0 ; i<stars.length; i++){
+            for(int j = 0 ; j<stars[i].length; j++){
+                stars[i][j]= "*";
             }
         }
 
-        for(int d[] : nums){
-            for(int m : d){
+        for(String d[] : stars){
+            for(String m : d){
                 System.out.print(m + " ");
             }
            System.out.println();
         }
     }
-} */
+} 
 
     
 /* public class JaggedArray {
