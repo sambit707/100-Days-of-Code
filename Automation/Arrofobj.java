@@ -69,7 +69,7 @@ for(int i =0; i<5; i++){
     }
 } */
 
-    package Automation;
+package Automation;
 
 import java.util.Scanner;
 import java.io.File;
