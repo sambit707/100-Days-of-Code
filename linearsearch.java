@@ -9,6 +9,6 @@ public class linearsearch {
             break; // agar 1 st mein mil jayega to wahin ruk jayega loop aur mehnaat nhi karna padega 
            }
         }
-        System.out.println("output" + ans);
+        System.out.println("output: " + ans);
     }
 }

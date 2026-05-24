@@ -28,14 +28,23 @@
         }
     } */
 
-        public class PracticeString {
+     /* public class PracticeString {
         
             public static void main(String[] args) {
                 String s = "sambit";
                 String d = "dipun";
                 System.out.println(s.charAt(3));
-                System.out.println(s.replace(s, d));
+              //  System.out.println(s.replace(s, d));
                //  String name = new String("sambit");
 
             }
-        }
+        } */   
+
+          /*   public class PracticeString {
+            
+                public static void main(String[] args) {
+                    String name = "sambit";
+                    name = name + " patnaik";
+                    System.out.println("hello " + name);
+                }
+            } */
