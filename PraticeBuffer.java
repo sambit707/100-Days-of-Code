@@ -11,10 +11,9 @@ public class PraticeBuffer {
     public class PraticeBuffer {
     
       public static void main(String[] args) {
-        String s = "RADAR";
+        String s = "RADaR";
+         s = s.toLowerCase();
         char ch[] = s.toCharArray();
-        // buffer array initialized to the string length
-        char c[] = new char[s.length()];
         // simple palindrome check
         boolean isPalindrome = true;
         for (int i = 0; i < s.length() / 2; i++) {
@@ -23,6 +22,7 @@ public class PraticeBuffer {
                 break;
             }
         }
+        System.out.println(isPalindrome);
       }
     }
  
