@@ -168,7 +168,26 @@
         }
     }
    } */
+    public class Array {
     
+        public static void main(String[] args) {
+            String s[] = {"bAnglore"};
+            char ch[] = s[0].toCharArray();
+            int vowels = 0;
+            int totalcount = 0;
+
+            for (int i = 0; i <ch.length ; i++) {
+                char c = Character.toLowerCase(ch[i]);
+                if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u') {
+                    vowels++;
+                } else {
+                    totalcount++;
+                }
+            }
+            System.out.println("Total vowels: " + vowels);
+            System.out.println("total number are: " + totalcount);
+        }
+    }
 
 
 

@@ -1,4 +1,4 @@
-/* import java.lang.*;
+
 public class PraticeBuffer {
 
     public static void main(String[] args) {
@@ -6,13 +6,13 @@ public class PraticeBuffer {
         StringBuffer sb = new StringBuffer("sambit");
         System.out.println(sb.capacity());
     }   
-} */
+} 
 
-    public class PraticeBuffer {
+   /*  public class PraticeBuffer {
     
       public static void main(String[] args) {
         String s = "RADaR";
-         s = s.toLowerCase();
+         s = s.toLowerCase(); // chahe small ho ya capital ho true hi ayega
         char ch[] = s.toCharArray();
         // simple palindrome check
         boolean isPalindrome = true;
@@ -24,5 +24,5 @@ public class PraticeBuffer {
         }
         System.out.println(isPalindrome);
       }
-    }
+    } */
  
