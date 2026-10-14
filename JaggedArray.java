@@ -2,7 +2,7 @@
 fixed in the array here is the below example of some coding problems  */
 
 
- public class JaggedArray {
+ /* public class JaggedArray {
 
     public static void main(String[] args) {
         int row = 5;
@@ -28,7 +28,32 @@ fixed in the array here is the below example of some coding problems  */
            System.out.println();
         }
     }
-} 
+}  */
+
+    public  class JaggedArray {
+    
+        public static void main(String[] args) {
+                    int[][] arr = { 
+            {10, 20}, 
+            {30, 40, 50, 60}, 
+            {70} 
+        };
+        for(int i = 0; i< arr.length ; i++){
+            for(int j = 0 ; j< arr[i].length; j++){
+ System.out.println(arr[i][j] + "" );
+            }
+            System.out.println();
+        }
+      /*   for (int d[] : arr){
+            for(int m : d){
+                System.out.print(m + " ");
+            }
+           System.out.println();
+        }*/
+        }
+    }
+
+
 
     
 /* public class JaggedArray {
