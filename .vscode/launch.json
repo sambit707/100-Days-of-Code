@@ -1,49 +1,35 @@
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
             "type": "java",
-            "name": "JaggedArray",
+            "name": "staticc",
             "request": "launch",
-            "mainClass": "JaggedArray",
-            "projectName": "java_160e80cb"
+            "mainClass": "staticc",
+            "projectName": "100-Days-of-Code_5d2ed495"
         },
         {
             "type": "java",
-            "name": "Array",
+            "name": "learning",
             "request": "launch",
-            "mainClass": "Array",
-            "projectName": "java_160e80cb"
+            "mainClass": "learning",
+            "projectName": "100-Days-of-Code_5d2ed495"
         },
         {
             "type": "java",
-            "name": "Test",
+            "name": "getter_setter",
             "request": "launch",
-            "mainClass": "Test",
-            "projectName": "java_160e80cb"
+            "mainClass": "getter_setter",
+            "projectName": "100-Days-of-Code_5d2ed495"
         },
         {
             "type": "java",
-            "name": "cslass",
+            "name": "Run Current File",
             "request": "launch",
-            "mainClass": "cslass",
-            "projectName": "java_160e80cb"
-        },
-        {
-            "type": "java",
-            "name": "Exercise",
-            "request": "launch",
-            "mainClass": "Exercise",
-            "projectName": "java_160e80cb"
-        },
-        {
-            "type": "java",
-            "name": "Current File",
-            "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "${fileBasenameNoExtension}",
+            "projectName": "100-Days-of-Code_5d2ed495",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
         }
     ]
 }

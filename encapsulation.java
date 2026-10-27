@@ -1,4 +1,4 @@
-class human{
+class HumanEncapsulation {
    private int age ;
    private String name ;
 
@@ -23,8 +23,8 @@ class human{
 public class encapsulation{
     public static void main(String[] args){
  
-        human obj = new human();
-        human obj1 = new human();
+        HumanEncapsulation obj = new HumanEncapsulation();
+        HumanEncapsulation obj1 = new HumanEncapsulation();
 
          obj.setage(25);
         obj.setname("sambit");
