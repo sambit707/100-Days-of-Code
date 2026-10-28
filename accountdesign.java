@@ -1,5 +1,5 @@
 class Account {
-  private int accountNumber;
+  private int accountNumber = 1000;
   private String holderName;
   private double balance = 1000.0;
   private double initialDeposit;

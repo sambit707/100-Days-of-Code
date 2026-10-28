@@ -3,6 +3,7 @@ public class question2 {
         if (arr == null || arr.length < 2) {
             System.out.println("second largest doesn't exist");
             return Integer.MIN_VALUE;
+
         }
 
         int largest = Integer.MIN_VALUE;
