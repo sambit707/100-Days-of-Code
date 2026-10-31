@@ -3,6 +3,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "methodoveriding",
+            "request": "launch",
+            "mainClass": "methodoveriding",
+            "projectName": "100-Days-of-Code_5d2ed495"
+        },
+        {
+            "type": "java",
+            "name": "methodoverloading",
+            "request": "launch",
+            "mainClass": "methodoverloading",
+            "projectName": "100-Days-of-Code_5d2ed495"
+        },
+        {
+            "type": "java",
+            "name": "demoo",
+            "request": "launch",
+            "mainClass": "demoo",
+            "projectName": "100-Days-of-Code_5d2ed495"
+        },
+        {
+            "type": "java",
             "name": "Inheritancee",
             "request": "launch",
             "mainClass": "Inheritancee",

@@ -42,7 +42,7 @@ public class methodoverloading {
             System.out.println(obj.getmeapen("parker"));
         }
     } */
-   /*class loading{
+   class loading{
     public int add(int n1, int n2){
         int r = n1 + n1;
         return r;
@@ -64,5 +64,5 @@ public class methodoverloading {
             System.out.println(obj.add(2, 4));
             System.out.println(obj.add(3, 3, 3));
         }
-    } */
+    } 
    
