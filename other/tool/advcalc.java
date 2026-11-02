@@ -1,3 +1,4 @@
+package other.tool;
 public class advcalc extends calc {
 
  public int multiply(int n1 , int n2){

@@ -1,7 +1,4 @@
-// practice of the anonymous object
-
-
-
+package other.tool;
 /* class A{
 
     public A(){
@@ -51,5 +48,22 @@ public class demo{
     }
 } */
 
+import other.A;
 
+class c extends  A{
+ 
+    public void abc(){
+        A obj = new A();
+        A obj1 = new A();
+        System.out.println(marks);
+        System.out.println(age);
+    }
+}
+
+public class demo {
     
+        public static void main(String[] args) {
+           c obj = new c();
+           obj.abc();
+        }
+    }
