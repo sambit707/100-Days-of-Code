@@ -9,11 +9,10 @@ class Calc {
 }
 
 class advcalc extends Calc {
-    public void show() {
+    public  void show() {
         System.out.println("by utej");
     }
 }
-
 public class finaal {
     public static void main(String[] args) {
     //   int num = 9;
