@@ -3,6 +3,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Question2",
+            "request": "launch",
+            "mainClass": "Question2",
+            "projectName": "100-Days-of-Code_5d2ed495"
+        },
+        {
+            "type": "java",
+            "name": "question1",
+            "request": "launch",
+            "mainClass": "question1",
+            "projectName": "100-Days-of-Code_5d2ed495"
+        },
+        {
+            "type": "java",
             "name": "demo",
             "request": "launch",
             "mainClass": "typecasting.wrapperclass.question.demo",
