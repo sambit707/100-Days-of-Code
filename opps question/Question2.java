@@ -1,3 +1,14 @@
+/* OTT Subscription Model (Inheritance & Polymorphism)
+Scenario: Jo humne Netflix wala example discuss kiya tha!
+
+Base Class: Plan (fields: planName, price). Ek method banao showFeatures().
+
+Subclass 1: BasicPlan (extends Plan). showFeatures() ko override karo aur print karo: "720p Resolution, 1 Screen".
+
+Subclass 2: PremiumPlan (extends Plan). showFeatures() ko override karo aur print karo: "4K Resolution, 4 Screens, Offline Download".
+Task: Main method mein Polymorphism (Upcasting) dikhao:
+Plan myPlan = new PremiumPlan(); likho aur showFeatures() call karke dekho konsa method chalta hai. Constructor mein super() ka use zaroor karna price set karne ke liye. */
+
 class plan{
     private String planName;
     private int price;
